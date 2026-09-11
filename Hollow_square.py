@@ -1,6 +1,6 @@
 n = int(input("Enter the size of the hollow square: "))
 
-# hollow square pattern
+#----- hollow square pattern
 for i in range(1, n + 1):
     if i==1:
         row ="* " * n
@@ -9,4 +9,4 @@ for i in range(1, n + 1):
     else:
         spaces = n-2
         row = "* " + "  " * spaces + "* "
-    print(row)
+    print("Hollow square pattern:", row)
