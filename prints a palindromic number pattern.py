@@ -1,6 +1,6 @@
-n = int(input("Enter the number of rows: ")) #----- Input for the number of rows
+n = int(input("Enter the number of rows: ")) # - Input for the number of rows
 
-#----- Print the palindromic number pattern
+# - Print the palindromic number pattern
 for i in range(1, n + 1):
     s = ""
 

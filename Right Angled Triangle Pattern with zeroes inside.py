@@ -1,6 +1,6 @@
-n= int(input("Enter the size of the right angled triangle: ")) #----- Input for the size of the right angled triangle
+n= int(input("Enter the size of the right angled triangle: ")) # - Input for the size of the right angled triangle
 
-#----- Print the right angled triangle pattern with zeroes inside
+# - Print the right angled triangle pattern with zeroes inside
 for i in range(1, n + 1):
     if 1==i:
         row = ". " * i

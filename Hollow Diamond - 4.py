@@ -1,6 +1,6 @@
-n = int(input("Enter the number of rows: ")) #----- Input for the number of rows
+n = int(input("Enter the number of rows: ")) # - Input for the number of rows
 
-#----- Print the hollow diamond pattern of zeros
+# - Print the hollow diamond pattern of zeros
 for row in range(1, n + 1):
     if row == 1:
         print("* " * (n * 2))
@@ -9,7 +9,7 @@ for row in range(1, n + 1):
         spaces = "  " * ((row * 2) - 2)
         print(stars + spaces + stars)
 
-#----- Print the bottom half of the hollow diamond pattern of zeros
+# - Print the bottom half of the hollow diamond pattern of zeros
 for row in range(1, n + 1):
     if row == 1:
         space = "  " * ((n - row) * 2)
