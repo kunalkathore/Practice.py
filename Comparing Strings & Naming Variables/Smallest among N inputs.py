@@ -2,7 +2,7 @@ n = int(input()) # Number of inputs
 
 smallest_number = 999999999 # Initialize smallest_number with a large value
 
-for num in range(n):
+for num in range(n): # Loop through the range of n to take n inputs
     number = int(input())
 
     if number < smallest_number:  # Update smallest_number if the current number is smaller
