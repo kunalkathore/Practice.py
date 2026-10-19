@@ -1,6 +1,6 @@
 n = int(input()) # Number of inputs
 
-smallest_number = 999999999 # Initialize smallest_number with a large value
+smallest_number = float('inf') # Initialize smallest_number with a large value
 
 for num in range(n): # Loop through the range of n to take n inputs
     number = int(input())
