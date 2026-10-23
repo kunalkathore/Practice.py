@@ -1,4 +1,4 @@
-temp = input()
+temp = input("Enter the temperature with unit (e.g., 25C, 77F, 298K): ") # - Get the temperature input from the user, which includes both the numeric value and the unit (C, F, or K)
 
 unit = temp[-1] # - Get the last character of the input string to determine the unit (C, F, or K)
 value = float(temp[:-1]) # - Get the numeric value of the temperature by removing the last character and converting it to float

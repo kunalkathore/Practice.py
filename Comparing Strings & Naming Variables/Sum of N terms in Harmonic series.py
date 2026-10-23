@@ -1,4 +1,4 @@
-n  = int(input()) # - Get the number of terms in the harmonic series from user input and convert it to an integer
+n  = int(input("Enter the number of terms in the harmonic series: ")) # - Get the number of terms in the harmonic series from user input and convert it to an integer
 
 total = 0 # - Initialize a variable to store the sum of the harmonic series
 
