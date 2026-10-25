@@ -9,7 +9,7 @@ for char in full_string:
         subseq_index += 1
         if subseq_index == subseq_len:
             break
-
+        
 if subseq_index == subseq_len:
     print("Yes")
 else:
