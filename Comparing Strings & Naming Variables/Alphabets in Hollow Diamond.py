@@ -3,7 +3,7 @@ n = int(input("Enter the number of rows: "))                                    
 alpha = 65
 
 # - Print the top half of the hollow diamond pattern of alphabets
-for i in range(n):                                                                                                      # - Loop through each row of the top half of the hollow diamond pattern
+for i in range(n):                                                                                               # - Loop through each row of the top half of the hollow diamond pattern
     left_spaces = " " * (n - i - 1)                                                                                     # - Calculate the number of spaces to the left of the alphabets
     hollow_spaces = " " * (2 * i - 1)                                                                                   # - Calculate the number of spaces between the alphabets in the hollow diamond pattern
 
