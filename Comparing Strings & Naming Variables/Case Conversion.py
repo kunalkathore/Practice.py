@@ -12,4 +12,4 @@ for i in range(len(s)):
     else:
         result += s[i]
 
-print("Result:", result)    
+print("Result:", result)
