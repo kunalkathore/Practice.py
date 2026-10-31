@@ -1,4 +1,4 @@
-n = int(input())
+n = int(input(" Enter the number of rows for the diamond: "))
 
 # Top half: N rows
 for i in range(1, n + 1):
