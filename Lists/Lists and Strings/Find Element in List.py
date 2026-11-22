@@ -4,9 +4,9 @@ string = input()
 
 is_present = False
 
-for each_item in L:
-    if each_item == string:
-        is_present = True
-        break
+for each_item in L:                   # if string in L:
+    if each_item == string:           #     print("True")
+        is_present = True             # else:
+        break                         #     print("False")
 
 print(is_present)
