@@ -1,8 +1,9 @@
-num_list = [10, 20, 40, 100]
-n = int(input())
+num_list =  [10, 20, 40, 100]
+n = int(input("Enter a number to add to the list: "))
 
-first_list = [n] + num_list
-second_list = num_list + [n]
+first_list = [n] + num_list     # Add the number in the beginning
+second_list = num_list + [n]    # Add the number at the end
 
 print(first_list)
 print(second_list)
+ 
