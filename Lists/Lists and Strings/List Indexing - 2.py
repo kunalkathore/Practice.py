@@ -6,8 +6,8 @@ programming_languages_list = [
     ]
 
 # Write your code here
-n = int(input())
+n = int(input("Enter the number of indices you want to access: "))
 
 for num in range(n):
-    index = int(input())
+    index = int(input("Enter the index you want to access: "))
     print(programming_languages_list[index]) 
